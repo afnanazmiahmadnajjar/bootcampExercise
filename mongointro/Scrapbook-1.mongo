@@ -1,0 +1,2 @@
+db.firstCollection.find({ "accountDetails.fullName": "afnan Dweikat" });
+// db.firstCollection.find({ _id: ObjectId("62e66434e610285358d52815") });

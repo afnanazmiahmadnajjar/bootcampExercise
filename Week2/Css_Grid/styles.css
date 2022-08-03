@@ -1,0 +1,50 @@
+
+#body{
+    width: 100%;
+    justify-content: center;
+    border: 2px solid red;
+}
+#nav-container{
+    display: grid;
+}
+.main-items{
+    grid-area: A;
+}
+.nav-item{
+    grid-area: B;
+}
+#container{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    border: 2px solid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    "A B";
+}
+
+.head{
+    background-color: aqua;
+    grid-area: h;
+}
+
+.side-nav{
+    background-color: blue;
+    grid-area: s
+}
+.side-nav1{
+    background-color: black;
+    grid-area: k
+}
+
+.main{
+    background-color: brown;
+    grid-area: m
+}
+
+.foot{
+    background-color: blueviolet;
+    grid-area: f
+}
